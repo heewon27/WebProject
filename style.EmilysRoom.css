@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  height: 75px;
+  padding: 1rem;
+  color: #B09920;
+  background-color:rgb(41, 6, 6);
+  font-weight: bold;
+  font-family: Copperplate Gothic;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1, p {
+  margin: 0;
+}
+
+main {
+  padding: 1rem;
+  height: 100%;  
+}
+
+/*배경 이미지 설정*/
+body {
+  padding-top: 75px;
+  background: #EEE;
+	
+background-image: url('wallpaper1.jpg');
+background-size: 40%;
+	
+	background-repeat:repeat;
+	background-attachment: scroll;
+	
+	background-position: initial initial;
+	
+	margin: 0;
+
+	
+}
+
+body, html {
+  height: 200%;
+background-color:antiquewhite;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+	
+a:link {
+  color :  #B09920;;
+	text-decoration: none;
+}
+
+a:visited { color: #B09920;; }
+
+
+.mainImage{ 
+margin: 0 auto;
+max-width:100%;
+l
+
+}
+
+
+.doors{
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+#Emilysdoor:hover{
+  color:rgba(73, 15, 15, 0.301);
+  }
+#Emilysdoor:hover.text{
+  opacity:0.5;
+  text-align: center;
+  color:#ffff;
+}
+
+
