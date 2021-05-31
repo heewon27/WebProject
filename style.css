@@ -9,10 +9,12 @@ header {
   
   height: 75px;
   padding: 1rem;
-  color: goldenrod;
-  background-color:black;
+  color: #B09920;
+  background-color:rgb(41, 6, 6);
   font-weight: bold;
+  font-family: Copperplate Gothic;
   display: flex;
+  font-size: 20px;
   justify-content: space-between;
   align-items: center;
 }
@@ -38,6 +40,9 @@ background-size: 40%;
 	
 	background-position: initial initial;
 	
+	margin: 0;
+
+	
 }
 
 body, html {
@@ -47,18 +52,49 @@ background-color:antiquewhite;
 
 * {
   box-sizing: border-box;
+  
 }
 	
 a:link {
-  color : goldenrod;
+  color :  #B09920;;
 	text-decoration: none;
 }
 
-a:visited { color:darkgoldenrod; }
+a:visited { color: #B09920;; }
 
 
-.mainImage{
-display: block; margin: 0px auto;
+.mainImage{ 
+
+margin: 0 auto;
+display: block;
+
+
 }
+
+
+.doors{
+  margin: 0 auto;
+
+  display: inline-flex;
+}
+
+
+#Emilysdoor:hover{
+  image
+  background-color: black;
+  }
+#Emilysdoor:hover.text{
+  opacity:1;
+  text-align: center;
+  color:#ffff;
+}
+
+
+.imge{background:url(red\ door.svg); background-size: cover;}
+.text{background:#000000; opacity:0;}
+.text p{padding-top: 300px;}
+.img:hover .text { opacity: 0.5; text-align: center; color:#ffff;}
+
+
 
 
