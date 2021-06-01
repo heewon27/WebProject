@@ -33,7 +33,7 @@ body {
   padding-top: 75px;
   background: #EEE;
 	
-background-image: url('wallpaper1.jpg');
+background-image: url('wallpaper3.jpg');
 background-size: 40%;
 	
 	background-repeat:repeat;
@@ -47,8 +47,8 @@ background-size: 40%;
 }
 
 body, html {
-  height: 200%;
-background-color:antiquewhite;
+  height: 150%;
+
 }
 
 * {
@@ -64,27 +64,97 @@ a:link {
 a:visited { color: #B09920;; }
 
 
-.mainImage{ 
-margin: 0 auto;
-max-width:100%;
-l
-
-}
 
 
-.doors{
-  margin: 0 auto;
-  text-align: center;
-}
+.windowimg{
+  filter: drop-shadow(5px 5px 5px #000) }
 
 
-#Emilysdoor:hover{
-  color:rgba(73, 15, 15, 0.301);
+  .info{
+    width: 300px;
+    height: 200px;
+    display: none;    
   }
-#Emilysdoor:hover.text{
-  opacity:0.5;
+
+  .info:hover{
+    background-color: goldenrod;
+  }
+
+/*차이*/
+.part1{
+  width: 900px;
+  margin: 0 auto;
+}
+.text {
+  float: left;
+  width: 60%;
+  font-size: 25px;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 20px;
+  
+}
+.window{
+  float: right;
+  width: 30%
+}
+
+/*part2*/
+.part2{
+  width: 900px;
+  margin: 0 auto;
+}
+.text2 {
+  float: right;
+  width: 60%;
+  font-size: 25px;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 20px;
+  
+}
+.window{
+  float: left;
+  width: 30%
+}
+
+/*세번째 파트*/
+.part3{
+  width: 900px;
+  margin: 0 auto;
+}
+.text3 {
+  float: left;
+  width: 60%;
+  font-size: 25px;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 20px;
+  
+}
+.Wuthering{
+  float: right;
+  width: 30%
+}
+
+/*LAST  QUOTE*/
+.quote{
+  padding: 200px 500px;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: larger;
   text-align: center;
-  color:#ffff;
+  text-shadow: 5px 5px 5px black;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 55px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight:bolder;
+ margin: 0 auto;
+
 }
 
 

@@ -46,8 +46,8 @@ background-size: 40%;
 }
 
 body, html {
-  height: 200%;
-background-color:antiquewhite;
+  height: 150%;
+
 }
 
 * {
@@ -75,7 +75,8 @@ display: block;
 .doors{
   margin: 0 auto;
 
-  display: inline-flex;
+  display:inline;
+  text-align: center;
 }
 
 
@@ -83,6 +84,7 @@ display: block;
   image
   background-color: black;
   }
+
 #Emilysdoor:hover.text{
   opacity:1;
   text-align: center;
@@ -94,6 +96,13 @@ display: block;
 .text{background:#000000; opacity:0;}
 .text p{padding-top: 300px;}
 .img:hover .text { opacity: 0.5; text-align: center; color:#ffff;}
+
+.doors p{
+  color: goldenrod;
+  font-weight: bold;
+  font-family: Copperplate Gothic;
+  text-size-adjust: 20px;
+}
 
 
 
