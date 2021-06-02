@@ -92,6 +92,7 @@ a:visited { color: #B09920;; }
   color:white;
   background-color: rgba(0, 0, 0, 0.527);
   padding: 20px;
+  font-family: 'Nanum Myeongjo', serif;
   
 }
 .window{
@@ -111,7 +112,7 @@ a:visited { color: #B09920;; }
   color:white;
   background-color: rgba(0, 0, 0, 0.527);
   padding: 20px;
-  
+  font-family: 'Nanum Myeongjo', serif;
 }
 .window{
   float: left;
@@ -130,7 +131,7 @@ a:visited { color: #B09920;; }
   color:white;
   background-color: rgba(0, 0, 0, 0.527);
   padding: 20px;
-  
+  font-family: 'Nanum Myeongjo', serif;
 }
 .Wuthering{
   float: right;
