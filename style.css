@@ -24,7 +24,10 @@ h1, p {
 }
 
 main {
-  padding: 1rem;
+  font-family: 'Song Myung', serif;
+  font-weight: bold;
+  line-height: 4em;
+ color:antiquewhite;
   height: 100%;  
 }
 
@@ -65,11 +68,18 @@ a:visited { color: #B09920;; }
 
 .mainImage{ 
 
-margin: 0 auto;
+
+
+width: 100%;
 display: block;
+
+margin: 0px;
+padding: 0px;
 
 
 }
+
+
 
 
 .doors{
