@@ -1,4 +1,10 @@
 @charset "utf-8";
+@font-face {
+  font-family: 'MapoFlowerIsland';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /* CSS Document */
 
 header {
@@ -92,13 +98,19 @@ a:visited { color: #B09920;; }
   color:white;
   background-color: rgba(0, 0, 0, 0.527);
   padding: 20px;
-  font-family: 'Nanum Myeongjo', serif;
+
+    font-family: 'MapoFlowerIsland';
+   
+    font-weight: normal;
+    font-style: normal;
+  
   
 }
 .window{
   float: right;
-  width: 30%
+  width: 30%;
 }
+
 
 /*part2*/
 .part2{
@@ -112,12 +124,13 @@ a:visited { color: #B09920;; }
   color:white;
   background-color: rgba(0, 0, 0, 0.527);
   padding: 20px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'MapoFlowerIsland';
 }
-.window{
+.papers{
   float: left;
-  width: 30%
+  width: 30%;
 }
+
 
 /*세번째 파트*/
 .part3{
@@ -131,11 +144,11 @@ a:visited { color: #B09920;; }
   color:white;
   background-color: rgba(0, 0, 0, 0.527);
   padding: 20px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'MapoFlowerIsland';
 }
 .Wuthering{
   float: right;
-  width: 30%
+  width: 30%;
 }
 
 /*LAST  QUOTE*/
@@ -157,5 +170,8 @@ h1{
  margin: 0 auto;
 
 }
+
+
+
 
 

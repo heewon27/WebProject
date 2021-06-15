@@ -1,4 +1,11 @@
 @charset "utf-8";
+@font-face {
+  font-family: 'MapoFlowerIsland';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* CSS Document */
 
 header {
@@ -101,12 +108,14 @@ h1{
   color:white;
   background-color: rgba(0, 0, 0, 0.527);
   padding: 20px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'MapoFlowerIsland';
 }
 .window{
   float: right;
   width: 30%
 }
+
+
 
 /*part2*/
 .part2{
@@ -120,8 +129,7 @@ h1{
   color:white;
   background-color: rgba(0, 0, 0, 0.527);
   padding: 20px;
-  font-family: 'Nanum Myeongjo', serif;
-  
+  font-family: 'MapoFlowerIsland';
 }
 .window{
   float: left;
@@ -140,7 +148,7 @@ h1{
   color:white;
   background-color: rgba(0, 0, 0, 0.527);
   padding: 20px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'MapoFlowerIsland';
   
 }
 .Wuthering{
